@@ -3,7 +3,7 @@ void make_set(int v)
 {
     parent[v]=v;
 }
-int find_set(int v)
+int find_set(int v).         // time complexity of find set is O(N) as consider the case of long chain as it will visit all vertices
 {
     if(v==parent[v])
     {
